@@ -1,0 +1,80 @@
+// variables
+$clr-rgba: rgba(0, 0, 0, 0.6);
+$clr-primary: #bd4f9e;
+$clr-black: #000;
+$clr-navigation: #333;
+$clr-white: #fff;
+$clr-regal-blue: #103755;
+$clr-gold: #eeb808;
+$clr-light-blue: #707b8e;
+$clr-light-gray: #d1d1d1;
+$clr-pine-green: #63766b;
+$clr-ghost-white: #f8f8fa;
+$clr-dark: #212529;
+$clr-red: #ce4f4b;
+$bgColor-lightGray: #f3f3f3;
+$fnt-base: 'Poppins', sans-serif;
+$transition: all 300ms linear;
+
+// global styles & resets
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-family: $fnt-base;
+  color: $clr-black;
+  background-color: $bgColor-lightGray;
+  height: 1200px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+}
+img {
+  width: 100%;
+  display: block;
+}
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+button {
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: 1.8rem;
+}
+input,
+textarea,
+select {
+  outline: 0;
+  border: none;
+  resize: none;
+  font-family: inherit;
+  font-size: 1.6rem;
+}

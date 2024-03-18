@@ -1,0 +1,1 @@
+export { FooterWrap } from './FooterWrap';
